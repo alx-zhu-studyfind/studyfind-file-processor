@@ -22,7 +22,7 @@ if __name__ == "__main__":
         option = input(">>> ")
         if option == '1':
             print("DOWNLOADING FILES")
-            download_all_files(keyword_terms=TERMS, upload_to_drive=True)
+            download_all_files(disease_terms=TERMS, upload_to_drive=True)
             print(get_menu())
         elif option == '2':
             print("PROCESSING CSV FILES")
